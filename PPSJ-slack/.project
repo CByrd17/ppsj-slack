@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PPSJ-slack</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>tcm.early.vulnerability.detector.TCM_ESVD_BUILDER</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/ntut.csie.rleht.builder.RLBuilder.launch</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.sonarlint.eclipse.core.sonarlintBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>net.sf.eclipsecs.core.CheckstyleBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.sonarlint.eclipse.core.sonarlintNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>tcm.early.vulnerability.detector.TCM_ESVD_NATURE</nature>
+		<nature>ntut.csie.rleht.builder.RLNature</nature>
+		<nature>net.sf.eclipsecs.core.CheckstyleNature</nature>
+	</natures>
+</projectDescription>
