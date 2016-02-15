@@ -1,5 +1,6 @@
 /**
- * 
+ * Listing 1.1: This Java program finds the sum of 16 and 23, and
+ * then displays the result.
  */
 package us.cbyrd17.ppsjslack.chapter1;
 
@@ -33,6 +34,6 @@ public final class Add16And23 {
 		int sum;
 
 		sum = SIXTEEN + TWENTY_THREE;
-		log.info("The sume of 16 and 23 is " + sum);
+		log.info("The sum of 16 and 23 is " + sum);
 	}
 }
